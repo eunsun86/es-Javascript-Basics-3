@@ -20,15 +20,35 @@
 - 지금까지 배우신 loop이라던지, 기본적인 variable, array, object, string에 대한 개념만 있으면 충분히 풀수 있는 문제입니다!
 
 - 힌트
+```
+** Array **
 
-    1. String값들은 서로 더할 수 있습니다. // 'a' + 'bc'  => 'abc'
-    2. Array에 추가 혹은 삭제를 위해선, 다음 method들을 참고하세요. (상세한 문서는 아래 MDN에서 검색!)
-        - Array.prototype.slice
-        - Array.prototype.splice
-        - Array.prototype.push
-        - Array.prototype.pop
-        - Array.prototype.shift
-        - Array.prototype.unshift
+// Loop
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+
+// 배열 관련 참고 자료
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+Array.prototype.slice
+Array.prototype.splice
+Array.prototype.push
+Array.prototype.pop
+Array.prototype.shift
+Array.prototype.unshift
+
+
+** String **
+
+// Loop
+for (var i = 0; i < str.length; i++) {
+    console.log(str[i]);
+}
+
+// 스트링 관련 참고 자료
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String
+```
 
 **인터넷에서 자바스크립트 문서를 참고하실때는 항상 [Mozilla Developer Network](https://developer.mozilla.org/ko/docs/Web/JavaScript)를 사용하세요!**
 
@@ -55,3 +75,6 @@
   - node.js에는 npm(node package modules)라는 시스템이 존재합니다. 이 시스템을 이용하면 이 지구상의 누군가가 이미 만들고 npm에 등록해놓은 코드 패키지를 우리가 편하게 사용할 수 있는 것이랍니다!
   - package.json이란 파일을 보시면 devDependencies(혹은 dependencies)라는 부분에 우리가 필요로 하는 npm module들을 제가 적어놨습니다.
   - npm install이라는 명령어를 실행하게 되면, package.json에 나열된 npm module들이 우리 컴퓨터에 설치가 됩니다. 그래서 우리 컴퓨터에서 사용할 수 있게 되죠! 그래서 항상 npm을 이용하여 개발하는 프로젝트를 우리 컴퓨터에 새로 clone하였거나 설치하였을 경우, npm install이라는 명령어를 통해 작업 환경에 필요한 소프트웨어들을 설치하는 과정이 필요한 것이랍니다!
+  
+  
+test

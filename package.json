@@ -1,7 +1,7 @@
 {
-  "name": "week3_js_basics",
+  "name": "js_basics_3",
   "version": "1.0.0",
-  "description": "Week 3 - Javascript Basics Quiz",
+  "description": "Javascript Basics 3",
   "author": "Ken Huh <ken@vanillacoding.co> (https://vanillacoding.co)",
   "license": "ISC",
   "devDependencies": {

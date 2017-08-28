@@ -117,7 +117,7 @@ describe('3. 계산하기 (lib/stringCalculator.js)', function () {
             expect(multiply('3 * 2')).to.equal(6);
             expect(multiply('10 * 20')).to.equal(200);
             expect(multiply('200 * 100')).to.equal(20000);
-            expect(multiply('6000 * 2')).to.equal(1200);
+            expect(multiply('6000 * 2')).to.equal(12000);
             expect(multiply('1000000 * 2')).to.equal(2000000);
         });
     });

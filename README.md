@@ -14,4 +14,6 @@
 
 **인터넷에서 자바스크립트 문서를 참고하실때는 항상 [Mozilla Developer Network](https://developer.mozilla.org/ko/docs/Web/JavaScript)를 사용하세요!**
 
-test
+## 설치
+
+`npm install` 하세요!
